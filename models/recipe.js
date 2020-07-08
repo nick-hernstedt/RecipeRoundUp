@@ -5,11 +5,11 @@ const recipeSchema = new Schema({
   title: { type: String, required: true },
   author: { type: String, required: true },
   timeForCooking: { type: String, required: true },
-  timeForPrep: { type: Date, default: Date.now },
-  servings: { type: String, default: "Unassigned" },
-  image: { type: Boolean, default: false },
-  ingredients: { type: Boolean, default: false },
-  recipie: { type: Boolean, default: false },
+  timeForPrep: { type: String, required: true },
+  servings: { type: String, required: true },
+  image: { type: String, required: true },
+  ingredients: { type: String, required: true },
+  recipie: { type: String, required: true },
   projectID: { type: String, required: true },
 });
 
