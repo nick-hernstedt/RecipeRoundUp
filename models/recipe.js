@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const bugSchema = new Schema({
+const recipeSchema = new Schema({
   title: { type: String, required: true },
   author: { type: String, required: true },
   timeForCooking: { type: String, required: true },
@@ -13,6 +13,6 @@ const bugSchema = new Schema({
   projectID: { type: String, required: true },
 });
 
-const Bug = mongoose.model("Bug", bugSchema);
+const Recipe = mongoose.model("Recipe", recipeSchema);
 
-module.exports = Bug;
+module.exports = Recipe;
