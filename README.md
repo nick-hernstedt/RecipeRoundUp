@@ -1,5 +1,9 @@
 An app to upload your favorite recipes!
 
+created by: github.com/nick-hernstedt
+                      &
+            github.com/SquidDOTjpeg
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
