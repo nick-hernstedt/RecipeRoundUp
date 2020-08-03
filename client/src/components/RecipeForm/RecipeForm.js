@@ -53,19 +53,19 @@ export default function App() {
           required
         >
           <option key=""></option>
-          {countries.map((ingredients) => (
+          {recipes.map((ingredients) => (
             <option key={ingredients}>{ingredients}</option>
           ))}
         </select>
       </label>
 
       <label>
-        Submitted By:
+        Recipe:
         <input
-          name="submittedBy"
-          type="submittedBy"
-          value={submittedBy}
-          onChange={(e) => setsubmittedBy(e.target.value)}
+          name="recipe"
+          type="recipe"
+          value={recipe}
+          onChange={(e) => setRecipe(e.target.value)}
           required
         />
       </label>
