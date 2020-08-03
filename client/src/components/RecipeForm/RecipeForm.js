@@ -12,7 +12,7 @@ export default function App() {
       recipeName: ${recipeName}
       submittedBy: ${submittedBy}
       ingredients: ${ingredients}
-      Recipe: ${Recipe}
+      Recipe: ${recipe}
     `);
 
     event.preventDefault();
@@ -28,7 +28,7 @@ export default function App() {
           name="recipeName"
           type="recipeName"
           value={recipeName}
-          onChange={(e) => setrecipeName(e.target.value)}
+          onChange={(e) => setRecipeName(e.target.value)}
           required
         />
       </label>
@@ -39,7 +39,7 @@ export default function App() {
           name="submittedBy"
           type="submittedBy"
           value={submittedBy}
-          onChange={(e) => setsubmittedBy(e.target.value)}
+          onChange={(e) => setSubmittedBy(e.target.value)}
           required
         />
       </label>
